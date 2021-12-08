@@ -1,9 +1,9 @@
 <?php
 ini_set('display_errors', 1);
 
-$servername = "localhost";
-$username = "intern";
-$password = "internpass";
+$servername = getenv('DB_HOST');
+$username = "admin";
+$password = "password";
 $db = "todo";
 
 // Create connection
