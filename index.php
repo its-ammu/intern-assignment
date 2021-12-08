@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1);
 
-$servername = getenv('DB_HOST');
+$servername = rtrim(file_get_contents("/host.txt"));
 $username = "admin";
 $password = "password";
 $db = "todo";
