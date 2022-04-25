@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 
 $servername = "52.140.55.75";
 $username = "todo";
-$password = "password";
+$password = "Password@123";
 $db = "todo";
 
 // Create connection
