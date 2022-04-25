@@ -1,8 +1,8 @@
 <?php
 ini_set('display_errors', 1);
 
-$servername = rtrim(file_get_contents("host.txt"));
-$username = "admin";
+$servername = "52.140.55.75";
+$username = "todo";
 $password = "password";
 $db = "todo";
 
